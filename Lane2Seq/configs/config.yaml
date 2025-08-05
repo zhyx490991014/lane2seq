@@ -6,7 +6,9 @@ device: cuda  # or 'mps' if you are on Mac M1/M2
 
 # Paths
 data_path: ../archive/TUSimple/train_set
-encoder_checkpoint: pretraining_vit/outputs/checkpoint-19280/  # replace with actual path
+# encoder_checkpoint: pretraining_vit/outputs/checkpoint-19280/  # replace with actual path
+# encoder_checkpoint: google/vit-base-patch16-224
+encoder_checkpoint: pretraining_vit/vit-base-patch16-224/
 save_dir: checkpoints/
 log_file: logs/train.log
 
@@ -48,7 +50,7 @@ format_type: segmentation
 
 # Inference settings
 inference:
-  data_path: ../archive/TUSimple/test_set/
+  data_path: ../archive/TUSimple/
   checkpoint: "checkpoints/best_model.pth"
   output_dir: "results/inference"
 
