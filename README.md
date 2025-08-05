@@ -1,4 +1,4 @@
-看到论文[arxiv:2402.17172](https://arxiv.org/abs/2402.17172)想跑跑试试，只在[rishi02102017/LaneNet-Vision](https://github.com/rishi02102017/LaneNet-Vision)的仓库里找到了源码，拿TUSimple训练了50个epoch，效果很差..不知道是我哪里整错了
+看到论文[arxiv:2402.17172](https://arxiv.org/abs/2402.17172)想跑跑试试，只在[rishi02102017/LaneNet-Vision](https://github.com/rishi02102017/LaneNet-Vision)的仓库里找到了源码，拿TUSimple训练了50个epoch，效果很差..不知道是我哪里整错了[best_model.pth](https://vip.123pan.cn/1820473715/18706752)
 
 <p align="center">
   <img src="test_set_clips_0530_1492626989648235301_0_20.png" width="600"/>
